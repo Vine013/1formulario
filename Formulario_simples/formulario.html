@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./formulario.css">
+
+    <title>Formulario CSS</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1>Formulario de Cadastro</h1>
+            <h5>Informe seus dados de cadastro</h5>
+        </div>
+
+        <br>
+
+        <form id="formulario">
+            <fieldset>
+                <div class="campoFormulario">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" required>
+                </div> 
+                <div class="campoFormulario">
+                    <label for="nick">Nickname</label>
+                    <input type="text" name="nick" id="nick" required>
+                </div>
+            </fieldset>
+            
+            <div class="campoFormulario">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <div class="campoFormulario">
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha" required>
+            </div>
+
+            <div class="campoFormulario">
+                <input type="checkbox" name="Termos" id="termos" required>
+                <label id="campoAceite" for="termos">Aceitar os termos e condições</label>
+            </div>
+
+            <div class="botao">
+                <button type="submit" onclick="salvar()">Cadastrar</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="formulario.js"></script>
+
+</body>
+</html>

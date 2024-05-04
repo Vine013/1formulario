@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Corpo principal*/
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    color: rgb(31, 74, 109);
+    font-size: 50px;
+}
+
+.container{
+    border: 0;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #F0FFFF;
+}
+
+/*Tabela*/
+table{
+    margin-top: 20px;
+    border-color: black;
+    border-width: 1px;
+    text-align: center;
+}
+
+th{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: rgb(50, 139, 228);
+    padding: 5px;
+    color: #F0FFFF;
+    text-shadow: 2px 2px 2px #131313; 
+}
+
+/*Bordas tabela*/
+.borda-topo{
+    border-top: 1px solid black;
+    padding: 5px;
+}
+
+.borda-direita{
+    border-right: 1px solid black;
+}
+
+.borda-baixo{
+    border-bottom: 1px solid black;
+}
+
+.borda-esquerda{
+    border-left: 1px solid black;
+}
+
+/*Corpo secundário*/
+.mensagem{
+    padding: 20px;
+    border-radius: 30px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(71, 172, 255);
+    background-color: #F0FFFF;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px rgb(71, 172, 255);
+
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(71, 172, 255);
+    font-size: 30px;
+}

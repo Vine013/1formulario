@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #FF7F50;
+}
+
+fieldset{
+    border: 0;
+    display: flex;
+}
+
+fieldset .campoFormulario{
+    margin-right: 10px;
+}
+
+body{
+    background-color: #dcdcdc;
+}
+
+input, button{
+    border-radius: 5px ;
+}
+
+.campoFormulario{
+    margin-bottom: 15px;
+}
+
+.campoFormulario > label{
+    margin-bottom: 5px;
+    font-weight: bold;
+    display: block;
+}
+
+.campoFormulario > input[type="text"], .campoFormulario > input[type="email"], .campoFormulario > input[type="password"]{
+    padding: 5px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+
+.campoFormulario > input:focus{
+    background-color: #b0c4de;
+}
+
+#campoAceite{
+    display: inline-block;
+}
+
+.container{
+    border: 0;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #F0FFFF;
+}
+
+.botao > button{
+    font-size: 15px;
+    padding: 5px;
+    background-color: #4682B4;
+    color: #FFFFFF;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.botao > button:hover{
+    background-color: #b0c4de;
+    text-shadow: none;
+}
